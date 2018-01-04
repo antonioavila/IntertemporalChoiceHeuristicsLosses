@@ -21,6 +21,8 @@ Code and data used to get the results published in the paper "Does the ITCH-mode
    * reshape
 
 ## Data overview
+Data is stored on /data/data_final.csv
+
 * Condition: Numeric index of the treatment to which a participant was
              assigned. There are for conditions in the dataset, listed
              below. In the code there are also a "Condition 0", that is 
