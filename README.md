@@ -12,6 +12,13 @@ Code and data used to get the results published in the paper "Does the ITCH-mode
                   graphs/crossvalidated_comparisons including the ones used on the
                   paper. Results are also saved in the /output directory
 * The core functions used on the /src files are stored on /lib. 
+* Packages used: 
+   * Several R packages:
+   * boot
+   * ggplot2
+   * Hmisc
+   * plyr
+   * reshape
 
 ## Data overview
 * Condition: Numeric index of the treatment to which a participant was
