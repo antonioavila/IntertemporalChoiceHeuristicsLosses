@@ -1,4 +1,4 @@
-#The ITCH-model and predictive capabilites:  Experimental evidence of model fit with perceived losses
+# The ITCH-model and predictive capabilites:  Experimental evidence of model fit with perceived losses
 
 Code and data used to get the results published in the paper "The ITCH-model and predictive capabilites:  Experimental evidence of model fit with perceived losses"
 
