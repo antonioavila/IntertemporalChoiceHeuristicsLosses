@@ -4,16 +4,15 @@ Code and data used to get the results published in the paper "The predictive cap
 
 ## Code overview
 * The 2 main codes to run are in "/src"
-  * coefficients: Creates the ITCH coefficients for the desired conditions and 
+  * **coefficients:** Creates the ITCH coefficients for the desired conditions and 
                   his standard errors. The graphical outputs are stored in 
                   graphs/coefficients including the ones used on the paper.
-  * crossvalidated_comparisons: Runs 100 out-of sample comparisons between models
+  * **crossvalidated_comparisons:** Runs 100 out-of sample comparisons between models
                   as explained on the paper. Graphical output are stored on 
                   graphs/crossvalidated_comparisons including the ones used on the
                   paper. Results are also saved in the /output directory
 * The core functions used on the /src files are stored on /lib. 
-* Packages used: 
-   * Several R packages:
+* R Packages used: 
    * boot
    * ggplot2
    * Hmisc
@@ -23,7 +22,7 @@ Code and data used to get the results published in the paper "The predictive cap
 ## Data overview
 Data is stored on /data/data_final.csv
 
-* Condition: Numeric index of the treatment to which a participant was
+* **Condition:** Numeric index of the treatment to which a participant was
              assigned. There are for conditions in the dataset, listed
              below. In the code there are also a "Condition 0", that is 
              defined as all participants from all conditions.
@@ -32,17 +31,17 @@ Data is stored on /data/data_final.csv
     * 3 - Delay, Loss
     * 4 - Speedup, Loss
 
-* X1: The monetary value in euros associated with the smaller, sooner reward.
+* **X1:** The monetary value in euros associated with the smaller, sooner reward.
 
-* T1: The time of receipt in weeks associated with the smaller, sooner reward.
+* **T1:** The time of receipt in weeks associated with the smaller, sooner reward.
 
-* X2: The monetary value in euros associated with the larger, latter reward.
+* **X2:** The monetary value in euros associated with the larger, latter reward.
 
-* T2: The time of receipt in weeks associated with the larger, latter reward.
+* **T2:** The time of receipt in weeks associated with the larger, latter reward.
 
-* LaterOptionChosen: Dummy variable. 1 if the larger, later option was chosen, 0 if not.
+* **LaterOptionChosen:** Dummy variable. 1 if the larger, later option was chosen, 0 if not.
 
-Note: Data has already subtracted the loss for the endowment in the Delay-Loss and Speedup-Loss framings
+_Note: Data has already subtracted the loss for the endowment in the Delay-Loss and Speedup-Loss framings_
 
 ## Acknowledgments
 
